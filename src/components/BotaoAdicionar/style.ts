@@ -1,11 +1,11 @@
 import styled from 'styled-components'
-import cores from '../../styles/variaveis'
+import paletaCores from '../../styles/variaveis'
 
-export const CircleButton = styled.button`
+export const BotaoCircular = styled.button`
   height: 64px;
   width: 64px;
-  background-color: ${cores.primario};
-  color: ${cores.branco};
+  background-color: ${paletaCores.primario};
+  color: ${paletaCores.branco};
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,7 +19,7 @@ export const CircleButton = styled.button`
   transition: all 0.3s ease;
 
   &:hover {
-    background-color: ${cores.azul};
+    background-color: ${paletaCores.azul};
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
     transform: translateY(-2px);
   }

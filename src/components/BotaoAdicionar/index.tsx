@@ -1,7 +1,12 @@
-import { CircleButton } from './style'
+import { Link } from 'react-router-dom'
+import { BotaoCircular } from './style'
 
 const BotaoAdicionar = () => {
-  return <CircleButton>+</CircleButton>
+  return (
+    <Link to="/novo">
+      <BotaoCircular>+</BotaoCircular>
+    </Link>
+  )
 }
 
 export default BotaoAdicionar
